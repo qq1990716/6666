@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int a,b,c,d,e;
+int a,b,c,d;
 printf("请输入秒数\n");
 scanf("%d",&a);
 b=a/3600;
