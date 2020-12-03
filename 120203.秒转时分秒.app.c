@@ -6,7 +6,7 @@ int main(){
   b=a/3600;
   c=(a%3600)/60;
   d=a-b*3600-c*60;
-  printf("%d:",b);
-  printf("%d:",c);
-  printf("%d",d);
+  printf("%02d:",b);
+  printf("%02d:",c);
+  printf("%02d",d);
 }
